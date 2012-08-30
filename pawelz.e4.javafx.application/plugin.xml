@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            name="pawelz.e4.javafx.application"
+            application="at.bestsolution.efxclipse.runtime.workbench.fx.application">
+         <property
+               name="appName"
+               value="pawelz.e4.javafx.application">
+         </property>
+         <property
+               name="applicationXMI"
+               value="pawelz.e4.javafx.application/Application.e4xmi">
+         </property>
+         <property
+               name="applicationCSS"
+               value="platform:/plugin/pawelz.e4.javafx.application/css/default.css">
+         </property>
+      </product>
+   </extension>
+   <extension
+         point="at.bestsolution.efxclipse.runtime.theme">
+      <theme
+            basestylesheet="css/default.css"
+            id="default.theme">
+      </theme>
+   </extension>
+
+</plugin>

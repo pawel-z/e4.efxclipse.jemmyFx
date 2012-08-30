@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_XbcvwPHVEeGXgqxKTpgWqA" elementId="org.eclipse.e4.ide.application" bindingContexts="_XbcvwfHVEeGXgqxKTpgWqA">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_Xbcv0fHVEeGXgqxKTpgWqA" label="pawelz.e4.javafx.application" x="0" y="0" width="500" height="400">
+    <persistedState key="fx.stage.decoration" value="platform:/plugin/pawelz.e4.javafx.application/pawelz/e4/javafx/application/decoration/TopArea.fxml"/>
+    <children xsi:type="basic:PartSashContainer" xmi:id="_Xbcv0vHVEeGXgqxKTpgWqA" horizontal="true">
+      <children xsi:type="basic:Part" xmi:id="_Xbcv0_HVEeGXgqxKTpgWqA" contributionURI="bundleclass://pawelz.e4.javafx.application/pawelz.e4.javafx.application.parts.MediaListPart"/>
+      <children xsi:type="basic:PartStack" xmi:id="_Xbcv1PHVEeGXgqxKTpgWqA" elementId="content.stack"/>
+    </children>
+    <trimBars xmi:id="_Xbcv1fHVEeGXgqxKTpgWqA">
+      <children xsi:type="menu:ToolBar" xmi:id="_Xbcv1vHVEeGXgqxKTpgWqA" elementId="org.efxclipse.e4.maintoolbar">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_Xbcv1_HVEeGXgqxKTpgWqA" iconURI="platform:/plugin/pawelz.e4.javafx.application/icons/edit-image-face-show.png" command="_XbcvyvHVEeGXgqxKTpgWqA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_Xbcv2PHVEeGXgqxKTpgWqA" iconURI="platform:/plugin/pawelz.e4.javafx.application/icons/system-reboot.png" command="_XbcvzvHVEeGXgqxKTpgWqA"/>
+      </children>
+    </trimBars>
+  </children>
+  <handlers xmi:id="_Xbcvy_HVEeGXgqxKTpgWqA" contributionURI="bundleclass://pawelz.e4.javafx.application/pawelz.e4.javafx.application.handlers.OpenHandler" command="_XbcvyvHVEeGXgqxKTpgWqA"/>
+  <handlers xmi:id="_Xbcvz_HVEeGXgqxKTpgWqA" contributionURI="bundleclass://pawelz.e4.javafx.application/pawelz.e4.javafx.application.handlers.RefreshHandler" command="_XbcvzvHVEeGXgqxKTpgWqA"/>
+  <bindingTables xmi:id="_XbcvzPHVEeGXgqxKTpgWqA" bindingContext="_XbcvwfHVEeGXgqxKTpgWqA">
+    <bindings xmi:id="_XbcvzfHVEeGXgqxKTpgWqA" keySequence="M1+O" command="_XbcvyvHVEeGXgqxKTpgWqA"/>
+    <bindings xmi:id="_Xbcv0PHVEeGXgqxKTpgWqA" keySequence="M1+R" command="_XbcvzvHVEeGXgqxKTpgWqA"/>
+  </bindingTables>
+  <rootContext xmi:id="_XbcvwfHVEeGXgqxKTpgWqA" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_XbcvwvHVEeGXgqxKTpgWqA" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_Xbcvw_HVEeGXgqxKTpgWqA" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <commands xmi:id="_XbcvyvHVEeGXgqxKTpgWqA" elementId="media.open" commandName="openMedia"/>
+  <commands xmi:id="_XbcvzvHVEeGXgqxKTpgWqA" elementId="media.refresh" commandName="refreshMedia"/>
+  <addons xmi:id="_XbcvxPHVEeGXgqxKTpgWqA" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_XbcvxfHVEeGXgqxKTpgWqA" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_XbcvxvHVEeGXgqxKTpgWqA" elementId="at.bestsolution.efxclipse.runtime.bindings.e4.service" contributionURI="bundleclass://at.bestsolution.efxclipse.runtime.bindings.e4/at.bestsolution.efxclipse.runtime.bindings.e4.BindingServiceAddon"/>
+  <addons xmi:id="_Xbcvx_HVEeGXgqxKTpgWqA" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_XbcvyPHVEeGXgqxKTpgWqA" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_XbcvyfHVEeGXgqxKTpgWqA" elementId="at.bestsolution.efxclipse.runtime.bindings.e4.model" contributionURI="bundleclass://at.bestsolution.efxclipse.runtime.bindings.e4/at.bestsolution.efxclipse.runtime.bindings.e4.BindingProcessingAddon"/>
+</application:Application>
