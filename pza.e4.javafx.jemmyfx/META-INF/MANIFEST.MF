@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Wrap
-Bundle-SymbolicName: pza.e4.javafx.jemmyfx
+Bundle-SymbolicName: pawelz.e4.javafx.jemmyfx
 Bundle-Version: 1.0.0
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Require-Bundle: at.bestsolution.efxclipse.runtime.javafx

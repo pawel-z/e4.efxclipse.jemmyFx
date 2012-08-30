@@ -23,7 +23,7 @@ Require-Bundle: javax.inject;bundle-version="1.0.0",
  org.eclipse.equinox.common;bundle-version="3.6.100",
  org.eclipse.e4.ui.services;bundle-version="0.10.1",
  org.eclipse.core.runtime,
- pza.e4.javafx.jemmyfx;bundle-version="1.0.0",
+ pawelz.e4.javafx.jemmyfx;bundle-version="1.0.0",
  pawelz.e4.javafx.application;bundle-version="1.0.0"
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Import-Package: com.sun.javafx;version="2.2.0",
